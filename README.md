@@ -7,7 +7,7 @@
 
 This pipeline pulls product data from an external API, processes it through a 3-hop architecture (Bronze → Silver → Gold), stores each stage in AWS S3, and surfaces the final output in a live Streamlit dashboard.
 
-The end result: clean, aggregated product metrics — queryable, visualized, and cloud-hosted — with no manual steps after the initial run.
+The end result: clean, aggregated product metrics, queryable, visualized, and cloud-hosted, with no manual steps after the initial run.
 
 ---
 
@@ -212,4 +212,4 @@ streamlit run pipeline/dashboard.py
 
 ## Related Project
 
-[YouTube Data Engineering Pipeline (AWS)](link-to-other-repo) — Serverless pipeline using S3, Lambda, Glue, and Athena to transform raw YouTube trending data into queryable Parquet datasets. Covers IAM setup, event-driven Lambda triggers, Glue crawlers, and Athena SQL querying.
+[YouTube Data Engineering Pipeline (AWS)](https://github.com/hope-akpan-data/youtube-data-engineering-pipeline) — Serverless pipeline using S3, Lambda, Glue, and Athena to transform raw YouTube trending data into queryable Parquet datasets. Covers IAM setup, event-driven Lambda triggers, Glue crawlers, and Athena SQL querying.
